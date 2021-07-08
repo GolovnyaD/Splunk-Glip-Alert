@@ -14,4 +14,5 @@ Make tar archive and follow instruction for single-instance deployment: https://
 
 ### How to test?
  You can run script and push JSON like Splunk do (configuration - data from Adaptive Response page, result - Splunk search results):
+ 
 `echo '{"configuration":{"webhook_id":"YOUR WEBHOOK ID HERE", "title":"Honeypot Incident", "add_info":"mywiki/playbook"}, "result":{ "splunk_results":"host1,host2"}}' |  python3 glipalert.py --execute`
