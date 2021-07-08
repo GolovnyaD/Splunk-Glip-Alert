@@ -1,0 +1,30 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group"> 
+        <label class="control-label" for="webhook_id">Room</label>
+        <div class="controls">
+            <select name="action.glipalert.param.webhook_id" id="webhook_id">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+    </div>
+    <br>
+    <div class="control-group">
+        <label class="control-label" for="title">Title</label>
+        <div class="controls">
+            <input type="text" name="action.glipalert.param.title" id="title" />
+        </div>
+        <br>
+        <label class="control-label" for="message">Message</label>
+        <div class="controls">
+            Script sending splunk_results field
+        </div>
+        <br>
+        <div class="control-group"> 
+            <label class="control-label" for="add_info">Additional info</label>
+            <div class="controls">
+                <textarea cols="40" rows="5" name="action.glipalert.param.add_info" id="add_info" name="add_info"></textarea>
+            </div>
+        </div>
+    </div>
+</form>
