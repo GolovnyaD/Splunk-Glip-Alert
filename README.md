@@ -1,5 +1,6 @@
-# Splunk alert python script
-which push message in RingCentral Glip messenger using REST API and JSON.
+# Splunk custom alert action
+which push message in RingCentral Glip messenger using REST API and JSON. 
+Writen on Python3.
 
 ## What was added:
 - Debug info and exceptions catching.
